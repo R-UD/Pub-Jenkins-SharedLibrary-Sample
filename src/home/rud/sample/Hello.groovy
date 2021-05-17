@@ -3,7 +3,7 @@ package home.rud.sample
 class Hello implements Serializable {
     def pipeline
 
-    Hello (pipeline) {
+    Hello (def pipeline) {
         this.pipeline = pipeline
     }
 
@@ -12,7 +12,8 @@ class Hello implements Serializable {
     }
 
     def printMesageByEcho(String msg) {
-        pipeline.echo(msg);
+        //pipeline.echo(msg);
+        println("test" + msg)
     }
 
     def printEnv() {
