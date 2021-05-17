@@ -1,6 +1,6 @@
 package home.rud.sample
 
-calss Hello implements Serializable {
+class Hello implements Serializable {
     def pipeline
 
     Hello (pipeline) {
